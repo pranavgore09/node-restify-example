@@ -15,11 +15,11 @@ let valid_token = process.env.TOKEN
 let timer = undefined
 
 let valid_users = {
-	'rohit':{
-		'password': 'rohit1234',
+	'virat':{
+		'password': 'virat1234',
 		'token': null,
 		'valid_till': null,
-		'email': 'rohit@gmail.com'
+		'email': 'virat@gmail.com'
 	},
 }
 
