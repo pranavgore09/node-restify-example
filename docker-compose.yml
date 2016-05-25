@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+    node:
+        build: .
+        command: node app.js
+        ports:
+        - "9999:9999"
+        environment:
+        - APP_PORT=9999
+        - TOKEN=ABCDEFGH
+        - SESSION_MINUTES=1
+        volumes:
+        - ./server/logs:/server/logs
